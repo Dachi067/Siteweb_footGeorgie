@@ -65,5 +65,10 @@ def sagarejo():
 @app.route('/joueurs/kvara')
 def kvara():
     return render_template('kvara.html')
+
+@app.route('/joueurs/mamarda')
+def mamarda():
+    return render_template('mamarda.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
