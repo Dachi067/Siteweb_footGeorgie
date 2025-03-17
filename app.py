@@ -62,5 +62,8 @@ def kolkheti_1913():
 def sagarejo():
     return render_template('sagarejo.html')
 
+@app.route('/joueurs/kvara')
+def kvara():
+    return render_template('kvara.html')
 if __name__ == '__main__':
     app.run(debug=True)

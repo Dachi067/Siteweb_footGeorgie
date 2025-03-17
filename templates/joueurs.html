@@ -1,13 +1,10 @@
 {% extends 'base.html' %}
 
-{% block title %}Joueurs - Sakartelo Foot{% endblock %}
+{% block title %}Équipes - Sakartelo Foot{% endblock %}
 
 {% block content %}
-<h2>Les Joueurs historique</h2>
+<h2>Joueurs</h2>
 <ul>
-    <li>Giorgi Kvilitaia - Attaquant</li>
-    <li>Vako Kazaishvili - Milieu de terrain</li>
-    <li>Levan Mchedlidze - Attaquant</li>
-    <li>Jano Ananidze - Milieu offensif</li>
+    <li><a href="{{ url_for('kvara') }}">kvara</a></li>
 </ul>
 {% endblock %}
