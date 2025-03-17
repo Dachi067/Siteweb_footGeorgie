@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Sakartelo Foot{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Sakartelo Foot</h1>
+        <nav>
+            <a href="/">Accueil</a>
+            <a href="/equipes">Équipes</a>
+            <a href="/joueurs">Joueurs historique</a>
+            <a href="/resultats">Résultats</a>
+            <a href="/histoire">Histoire</a>
+        </nav>
+    </header>
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

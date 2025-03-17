@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Équipes - Sakartelo Foot{% endblock %}
+
+{% block content %}
+<h2>Équipes géorgiennes</h2>
+<ul>
+        <li><a href="{{ url_for('dinamo_tbilissi') }}">Dinamo Tbilissi</a></li>
+        <li><a href="{{ url_for('torpedo_koutaissi') }}">Torpedo Koutaissi</a></li>
+        <li><a href="{{ url_for('gagra') }}">Gagra</a></li>
+        <li><a href="{{ url_for('dila_gori') }}">Dila Gori</a></li>
+        <li><a href="{{ url_for('iberia_1999') }}">Iberia 1999</a></li>
+        <li><a href="{{ url_for('telavi') }}">Telavi</a></li>
+        <li><a href="{{ url_for('dinamo_batumi') }}">Dinamo Batumi</a></li>
+        <li><a href="{{ url_for('samgurali') }}">Samgurali</a></li>
+        <li><a href="{{ url_for('kolkheti_1913') }}">Kolkheti 1913</a></li>
+        <li><a href="{{ url_for('sagarejo') }}">Sagarejo</a></li>
+    
+</ul>
+
+{% endblock %}
