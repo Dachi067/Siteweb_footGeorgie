@@ -70,5 +70,13 @@ def kvara():
 def mamarda():
     return render_template('mamarda.html')
 
+@app.route('/joueurs/zivzivadze')
+def zivzivadze():
+    return render_template('zivzivadze.html')
+
+@app.route('/joueurs/mikautadze')
+def mikautadze():
+    return render_template('mikautadze.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
