@@ -138,3 +138,12 @@ body {
     height: auto;
     margin-bottom: 10px;
 }
+
+
+body {
+    background-image: url('/static/image/Georgiefoot.jpg'); /* Chemin vers l'image */
+    background-size: cover; /* Ajuste la taille pour couvrir toute la page */
+    background-position: center 60px; /* Centre l'image */
+    background-attachment: fixed; /* L'image reste fixe lors du défilement */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+}
