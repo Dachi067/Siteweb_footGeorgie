@@ -78,5 +78,13 @@ def zivzivadze():
 def mikautadze():
     return render_template('mikautadze.html')
 
+@app.route('/joueurs/kashia')
+def kashia():
+    return render_template('kashia.html')
+
+@app.route('/joueurs/davita')
+def davita():
+    return render_template('davita.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
